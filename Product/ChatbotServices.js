@@ -22,7 +22,7 @@ app.get("/details/:id", (req, res) => {
 })
 
 
-//rest api to update record into mysql database
+//rest api to update record into database
 app.put("/update", (req, res) => {
     var sno = req.body.S_NO;
     DBUtility.Connection
